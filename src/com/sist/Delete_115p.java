@@ -13,10 +13,5 @@ public class Delete_115p {
 			System.out.println(num);
 		}
 
-		String some = ";;;;;";
-		int length = some.length();
-		
-		System.out.println(length);
-		
 	}
 }
