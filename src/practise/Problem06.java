@@ -22,7 +22,7 @@ public class Problem06 {
 		System.out.print("주문수량 >> ");
 		int cups = sc.nextInt();
 
-		System.out.println("입금액 >> ");
+		System.out.print("입금액 >> ");
 		int money = sc.nextInt();
 		String coffee = null;
 		int price = 0;
@@ -44,12 +44,14 @@ public class Problem06 {
 		int tot = (price * cups) + (int) ((price * cups) * 0.1);
 		int change = money - tot;
 
-		System.out.println("주문한 메뉴" + coffee);
+		System.out.println("주문한 메뉴 : " + coffee);
 		System.out.printf("커피단가 : %,3d 원\n" , price);
 		System.out.println("주문수량 : " + cups + "잔");
 		System.out.printf("입금액 : %,3d 원\n",money);
 		System.out.printf("총금액 : %,3d 원\n" , tot);
 		System.out.printf("거스름 돈 : %,3d 원\n " , change);
+		
+		sc.close();
 
 	}
 

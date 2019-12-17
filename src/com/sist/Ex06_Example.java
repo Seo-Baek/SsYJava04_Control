@@ -16,7 +16,7 @@ public class Ex06_Example {
 			System.out.println("60 ~ 69 사이의 숫자입니다.");
 		} else {
 			System.out.println("60 미만의 숫자입니다.");
-		}
+		} 
 				
 	}
 

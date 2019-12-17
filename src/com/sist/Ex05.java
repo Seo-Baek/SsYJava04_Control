@@ -16,7 +16,7 @@ package com.sist;
 public class Ex05 {
 
 	public static void main(String[] args) {
-
+ 
 		int num = 5;
 		
 		if(num == 1) {

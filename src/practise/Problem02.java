@@ -23,5 +23,7 @@ public class Problem02 {
 		
 		System.out.println("홀수 합계 : " + odd);
 		System.out.println("짝수 합계 : " + even);
+		
+		sc.close();
 	}
 }

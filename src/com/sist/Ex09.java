@@ -24,7 +24,7 @@ public class Ex09 {
 		int tot = kor + eng + mat + java;
 		
 		//3. 평균을 구하자.
-		float avg = tot / 4.0f;
+		float avg = tot / 4.0f; 
 		
 		//4. 학점을 구하자.
 		
